@@ -1,5 +1,5 @@
 {% set name = "eth-event" %}
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/eth-event-{{ version }}.tar.gz
-  sha256: 2cb6ed7226fc33f46acee4f528bf65294e1f5346ab5aade6448ff12dcbcc1a17
+  sha256: 1589b583a9b0294f9aba4dedce8077685ced298393872f7f19bbf7d67ed9e49a
 
 build:
   number: 0
